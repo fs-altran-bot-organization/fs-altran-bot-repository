@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "init": "npm install",
-    "start": "npm start"
+    "start": "node server.js"
   },
   "dependencies": {
     "ajv": "^5.0.0",
