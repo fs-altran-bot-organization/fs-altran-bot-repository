@@ -7,8 +7,8 @@ module.exports = {
   },
   port: 8080,
   bot: {
-    appId: "e61a8101-6415-4404-8f9e-fb7066f91f36",
-    appPassword: "dhSGNWRV633!)=}oqhjlX42"
+    appId: "db155c13-277e-43ed-9ef6-2b5d90953a0c",
+    appPassword: "HZ9-.49r2vyBmB]QX@36hroaq/*Bj32p"
   },
   url_api: 'http://localhost:2001/api',
 
