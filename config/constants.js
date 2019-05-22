@@ -5,7 +5,7 @@ module.exports = {
     'directory': '.',
     'default': 'index.html'
   },
-  port: 8080,
+  port: 2000,
   bot: {
     appId: "c1f0d5ec-9e08-4cd4-b427-97357323f656",
     appPassword: "dhSGNWRV633!)=}oqhjlX42"
