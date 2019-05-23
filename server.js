@@ -3,6 +3,7 @@ var builder = require('botbuilder');
 var config = require('./config/constants');
 var fs = require('fs');
 var logger = require('./utils/logger');
+var server = restify.createServer();
 var intents = require('./intents/index');
 var login = require('./intents/login');
 var nointent = require('./intents/nointent');
@@ -13,12 +14,11 @@ var welcome = require('./intents/welcome');
 var nplStart = require('./intents/nlpStart');
 var other = require('./intents/other_query');
 var azure = require('botbuilder-azure'); 
-var server = restify.createServer();
 
 var documentDbOptions = {
-    host: 'https://fs-altran-bot-cosmos-db.documents.azure.com:443/', 
-    masterKey: 'ey9NYsxuyxyuKccECptueaFDUQNXLleNWKkuT3R1TdrwI70CLUK9Z3Ts98qgdSYgM95TrILwytwXFQE09jnmKQ==', 
-    database: 'botdocs',   
+    host: 'https://bot-fs-altran-db.documents.azure.com:443/', 
+    masterKey: 'up5gcEDeg4nmBJtINRo1j4nK926KW5mDGPitOAhHQnWk2XdoRuh5HIh7tC74KCZClqUYdd44saz4Rj7GDUAR7A==', 
+    database: 'bot-fs-altran-db',   
     collection: 'botdata'
 };
 
